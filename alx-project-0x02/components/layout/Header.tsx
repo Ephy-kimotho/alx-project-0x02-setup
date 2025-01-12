@@ -10,6 +10,9 @@ function Header() {
         <Link href="/about" className="bg-blue-600 py-2 px-4 rounded-md">
           About
         </Link>
+        <Link href="/posts" className="bg-blue-600 py-2 px-4 rounded-md">
+          Posts
+        </Link>
       </nav>
     </section>
   );

@@ -8,7 +8,9 @@ function Button({ size, shape, children }: ButtonProps) {
   };
 
   return (
-    <button className={`${sizes[size]} ${shape} text-white mx-4`}>{children}</button>
+    <button className={`${sizes[size]} ${shape} text-white mx-4`}>
+      {children}
+    </button>
   );
 }
 
